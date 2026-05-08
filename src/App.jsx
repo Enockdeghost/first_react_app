@@ -1,14 +1,21 @@
-import Card from "./card.jsx";
-import Button from "./Button.jsx";
+
+import Students from "./student.jsx";
 
 function App() {
-
   return (
     <>
-      <Card/>
-      <Button/>
+      <Students name="enock" age={30} isStudent={true} />
+      <Students name="spongebob" age={20} isStudent={true} />
+      <Students name="Patrick" age={18} isStudent={false}/>
+      <Students />
+
+      <Students></Students>
     </>
   );
 }
+
+
 export default App
-// continue afre master javacsripts
+
+//protoypte =is mechaism that ensure that the passed vaue 
+//is of the correct datatypr
